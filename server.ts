@@ -7,7 +7,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Explicitly use process.env.GEMINI_API_KEY
 const apiKey = process.env.GEMINI_API_KEY;
