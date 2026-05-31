@@ -1,0 +1,6 @@
+{
+  "name": "AI Music Prompt Director",
+  "description": "An AI-powered assistant for analyzing music styles, generating safe Suno AI prompts, and writing lyrics based on emotions and genres.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
